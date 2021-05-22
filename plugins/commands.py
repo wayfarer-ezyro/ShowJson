@@ -7,7 +7,7 @@ from pyrogram.errors import UserIsBlocked, PeerIdInvalid
 @Client.on_message(filters.command('start'))
 async def start(c, m):
     owner = await c.get_users(int(Config.OWNER_ID))
-    owner_username = owner.username if owner.username else 'Ns_bot_updates'
+    owner_username = owner.username if owner.username else 'EywasUpdates'
 
     # start text
     text = f"""Hey! {m.from_user.mention(style='md')},
@@ -16,13 +16,13 @@ async def start(c, m):
 
 `Get the json for the text, media, etc.`
 
-**👲 Maintained By:** {owner.mention(style='md')}
+**Created By:** {owner.mention(style='md')}
 """
 
     # Buttons
     buttons = [
         [
-            InlineKeyboardButton('My Father 👨‍✈️', url=f"https://t.me/{owner_username}")
+            InlineKeyboardButton('🦋 Uρdαтє Cнαηηєℓ 🦋', url=f"https://t.me/{owner_username}")
         ]
     ]
     await m.reply_text(
@@ -85,4 +85,3 @@ async def inline_json(c, m):
         switch_pm_parameter="start",
         cache_time=0
     )
-
