@@ -14,7 +14,7 @@ async def start(c, m):
 
 💡 ** I am Telegram ShowJson Bot created & maintained by {owner.mention(style='md')}**
 
-`I can get the json for the text, media, etc.`
+`I can get the json for the text, media, etc...`
 """
 
     # Buttons
