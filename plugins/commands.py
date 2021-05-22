@@ -12,7 +12,7 @@ async def start(c, m):
     # start text
     text = f"""Hey! {m.from_user.mention(style='md')},
 
-💡 ** I am Telegram ShowJson Bot, created & maintained by {owner.mention(style='md')}!**
+💡 ** I’m Telegram ShowJson Bot, created & maintained by {owner.mention(style='md')}!**
 
 `I can get the json for the text, media, etc...`
 """
