@@ -12,17 +12,15 @@ async def start(c, m):
     # start text
     text = f"""Hey! {m.from_user.mention(style='md')},
 
-💡 ** I am Telegram ShowJson Bot**
+💡 ** I am Telegram ShowJson Bot created & maintained by {owner.mention(style='md')}**
 
-`Get the json for the text, media, etc.`
-
-**Created By:** {owner.mention(style='md')}
+`I can get the json for the text, media, etc.`
 """
 
     # Buttons
     buttons = [
         [
-            InlineKeyboardButton('🦋 Uρdαтє Cнαηηєℓ 🦋', url=f"https://t.me/EywasUpdates")
+            InlineKeyboardButton('🦋 Uρdαтє Cнαηηєℓ 🦋', url=f"https://t.me/NeviNine")
         ]
     ]
     await m.reply_text(
